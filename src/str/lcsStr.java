@@ -39,7 +39,7 @@ public class lcsStr {
                 if (c[j] > max[0]) {   //如果是大于那暂时只有一个是最长的,而且要把后面的清0;  
                     max[0] = c[j];  
                     maxIndex[0] = j;  
-  
+    
                     for (int k = 1; k < maxLen; k++) {  
                         max[k] = 0;  
                         maxIndex[k] = 0;  
