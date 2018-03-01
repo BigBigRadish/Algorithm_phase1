@@ -21,6 +21,7 @@ import java.util.Arrays;
  * 2：使用时使用N个区间，因为假设最值为10、80，如果适用6个区间，则区间的大小为70/6=11.66，每个区间分别为：[10,21]、 [22,33]、 [34,44]、 [45,56]、 [57,68]、[69,80]，存在大小为12的区间，比理论下界11.66大。
  * 3：这是借鉴桶排序/Hash映射的思想。
  */
+/*
 public class maxGapSubArray {
 	class Gap {  
 		public:  
@@ -53,3 +54,4 @@ public class maxGapSubArray {
 		};  
 
 }
+*/
