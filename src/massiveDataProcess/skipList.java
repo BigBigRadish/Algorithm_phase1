@@ -8,7 +8,7 @@ import java.util.Random;
 
 /**
  * @author Agnostic
- *
+ * 跳跃链表相对于rb-tree更简单，构造方便，时间复杂度也能优化为O（logN），还能进行并行计算
  */
 class SkipNode<K,V>{//节点类
     K k;
